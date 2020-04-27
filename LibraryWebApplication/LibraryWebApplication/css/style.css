@@ -1,0 +1,67 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+  font-size: 17px;
+  font-weight:bold;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,161,231,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #4d94ff;
+}
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ff9900;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #003380;
+  color: white;
+}
+.headingForHome{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size:45px;
+	font-style:italic;
+	text-align: center;
+	color:#003380;
+	text-shadow: 2px 2px 3px #FFFFFF;
+}
+.allForms{
+	margin-left:20px;
+}
+.heading{
+	margin-top:10px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size:25px;
+	color:#003380;
+	text-shadow: 2px 2px 3px #FFFFFF;
+}
+p {
+    text-shadow: 2px 2px 3px #000000;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #4d94ff;
+   height:32px;
+   padding-bottom:5px;
+   color: white;
+   text-align: center;
+}
+.errorMessage{
+	text-shadow: 2px 2px 3px #000000;
+}
