@@ -1,0 +1,23 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[author] (Table)
+       [dbo].[book] (Table)
+       [dbo].[borrow] (Table)
+       [dbo].[student] (Table)
+       [dbo].[type] (Table)
+       [dbo].[FK_book_author] (Foreign Key)
+       [dbo].[FK_book_type] (Foreign Key)
+       [dbo].[FK_borrow_student] (Foreign Key)
+       [dbo].[FK_borrow_book] (Foreign Key)
+
+** Supporting actions
